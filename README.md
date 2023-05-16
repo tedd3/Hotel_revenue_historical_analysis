@@ -1,10 +1,11 @@
 # Hotel_revenue_historical_analysis
 This SQL project focuses on analyzing the historical revenue data of a hotel. It aims to gain insights into the hotel's financial performance over time by examining various revenue-related aspects.
 
-# Dataset
-The project uses a dataset containing hotel reservation data for the years 2018, 2019, and 2020. The dataset includes information such as reservation details, guest demographics, room types, market segments, and revenue-related fields.
+## Dataset
 
-# Code
+The project uses a dataset containing hotel reservation data for the years 2018, 2019, and 2020. The data set that I used for this project is from [Kaggle](https://www.kaggle.com/datasets/ferranindata/hotel-revenue-data-project). The dataset includes information such as reservation details, guest demographics, room types, market segments, and revenue-related fields.
+
+## Code
 
 The provided code includes SQL queries to answer key questions about the hotel's revenue and visitor statistics. Here is a summary of the queries:
 
@@ -20,7 +21,7 @@ Number of Visitors by Hotel Type and Year: Calculates the number of visitors to 
 
 Number of Visitors by Month: Calculates the number of visitors to the hotel for each month.
 
-#**Running the Project**
+## Running the Project
 
 To run this project, follow these steps:
 
@@ -28,10 +29,10 @@ Set up a MySQL database and import the provided hotel reservation dataset.
 
 Execute the provided SQL queries in the given order to obtain the desired analysis results.
 
-#**Further Analysis**
+## Further Analysis
 
 Feel free to modify the queries or add new ones to perform additional analysis based on your specific needs and questions.
 
-#**Note:** Ensure that you have the necessary permissions and access to the database and dataset before running the project.
+## Note: Ensure that you have the necessary permissions and access to the database and dataset before running the project.
 
-#**Disclaimer:** The dataset used in this project is for demonstration purposes only and may not reflect real hotel data.
+## Disclaimer: The dataset used in this project is for demonstration purposes only and may not reflect real hotel data.
