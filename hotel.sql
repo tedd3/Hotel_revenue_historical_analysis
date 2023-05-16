@@ -20,7 +20,8 @@ GROUP BY 1,2;
 SELECT reserved_room_type, ROUND(SUM((stays_in_weekend_nights + stays_in_week_nights)*adr*(1-discount)),2) as revenue
 FROM t1
 LEFT JOIN market_segment m ON m.market_segment = t1.market_segment
-GROUP BY 1;
+GROUP BY 1
+ORDER BY 2 DESC;
 
 -- What is the total revenue by month
 SELECT arrival_date_month, ROUND(SUM((stays_in_weekend_nights + stays_in_week_nights)*adr*(1-discount)),2) as revenue
@@ -32,7 +33,8 @@ GROUP BY 1;
 SELECT customer_type,arrival_date_month, ROUND(SUM((stays_in_weekend_nights + stays_in_week_nights)*adr*(1-discount)),2) as revenue
 FROM t1
 LEFT JOIN market_segment m ON m.market_segment = t1.market_segment
-GROUP BY 1,2;
+GROUP BY 1,2
+ORDER BY 3 DESC;
 
 -- The number of visitors of the hotel by hotel type and year
 SELECT hotel, arrival_date_year, SUM( adults + children + babies) AS total_guest
