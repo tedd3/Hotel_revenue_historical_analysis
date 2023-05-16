@@ -33,6 +33,6 @@ Execute the provided SQL queries in the given order to obtain the desired analys
 
 Feel free to modify the queries or add new ones to perform additional analysis based on your specific needs and questions.
 
-## Note: Ensure that you have the necessary permissions and access to the database and dataset before running the project.
+### Note: Ensure that you have the necessary permissions and access to the database and dataset before running the project.
 
-## Disclaimer: The dataset used in this project is for demonstration purposes only and may not reflect real hotel data.
+### Disclaimer: The dataset used in this project is for demonstration purposes only and may not reflect real hotel data.
